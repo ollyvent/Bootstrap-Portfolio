@@ -44,6 +44,7 @@ img{
 
 .display-5{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 
 .container, .navbar-nav{
@@ -67,6 +68,30 @@ img{
     display: flex;
     justify-content: space-between;
 }
+
+.col h2, .my-works h2{
+    background-color: rgba(128, 128, 128, 0.477);
+    text-align: start;
+    border-bottom: solid 1px rgb(102, 136, 166);
+    padding-left: 5px;
+    
+}
+
+.card-body{
+    background-color: rgba(203, 203, 219, 0.548);
+    border: solid 1px rgb(102, 136, 166);
+}
+
+.btn{
+    box-shadow: 5px 5px 5px  black;
+}
+
+.card-title{
+    color: rgb(102, 136, 166);
+    font-weight: 400px;
+}
+
+
 
 
 
