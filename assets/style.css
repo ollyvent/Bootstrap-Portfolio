@@ -4,7 +4,7 @@ body{
 
 .navbar{
     background-color: rgba(128, 128, 128, 0.477);     
-    border-bottom: solid 10px rgb(102, 136, 166);     
+    border-bottom: solid 4px rgb(102, 136, 166);     
 }
 
 .navbar a{
@@ -15,21 +15,20 @@ body{
 }
 
 a:hover{
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 2px 2px 3px rgb(73, 73, 73);
     color: rgb(73, 73, 73);
 }
 
 img{
-    border: solid rgb(102, 136, 166) 2px;  
+    border: solid rgb(102, 136, 166) 1px;  
+   
       
 }
 
-.lead{       
-    color: rgb(102, 136, 166);      
-}
+
 
 .lead{
-    /* justify-content: center; */
+    color: rgb(102, 136, 166);    
     text-decoration-line: underline; 
     letter-spacing: 2.2px;   
 
@@ -58,9 +57,6 @@ img{
 
 }
 
-/* .col p{
-    margin-left: 50px;
-} */
 
 .work-cards{
     display: flex;
@@ -71,6 +67,7 @@ img{
     background-color: rgba(128, 128, 128, 0.477);
     text-align: start;
     border-bottom: solid 1px rgb(102, 136, 166);
+    border-left: solid 1px rgb(102, 136, 166);
     padding-left: 5px;
     
 }
@@ -88,6 +85,16 @@ img{
     color: rgb(102, 136, 166);
     font-weight: 400px;
 }
+
+.col a{
+    color: rgb(73, 73, 73);
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;    
+    border-right: solid 1px;    
+}
+
+
 
 
 
