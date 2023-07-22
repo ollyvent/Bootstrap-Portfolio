@@ -4,14 +4,16 @@ body{
 
 .navbar{
     background-color: rgba(128, 128, 128, 0.477);  
-    padding-left: 50px;  
+    /* padding-left: 50px;   */
     border-bottom: solid 10px rgb(102, 136, 166); 
+    
 }
 
 .navbar a{
     color: rgb(73, 73, 73);
     font-size: 25px;
-    font-weight: 700;    
+    font-weight: 700;   
+    
 }
 
 a:hover{
@@ -28,10 +30,11 @@ img{
     color: rgb(102, 136, 166);      
 }
 
-.container p{
-    justify-content: center;
+.lead{
+    /* justify-content: center; */
     text-decoration-line: underline; 
     letter-spacing: 2.2px;   
+
 }
 
 .oloche{
@@ -42,6 +45,29 @@ img{
 .display-5{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.container, .navbar-nav{
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    margin-left: 200px;
+    padding-left: 0;
+}
+
+.container h1 p{
+    margin-left: 50px !important;
+
+}
+
+/* .col p{
+    margin-left: 50px;
+} */
+
+.work-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
 
