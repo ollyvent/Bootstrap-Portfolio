@@ -2,6 +2,7 @@ body{
     background-color: rgba(203, 203, 219, 0.548);        
 }
 
+/* nav bar section */
 .navbar{
     background-color: rgba(128, 128, 128, 0.477);     
     border-bottom: solid 4px rgb(102, 136, 166);  
@@ -11,38 +12,12 @@ body{
 .navbar a{
     color: rgb(73, 73, 73);
     font-size: 25px;
-    font-weight: 700;   
-    
+    font-weight: 700;     
 }
 
 a:hover{
     text-shadow: 2px 2px 3px rgb(73, 73, 73);
     color: rgb(73, 73, 73);
-}
-
-img{
-    border: solid rgb(102, 136, 166) 1px;  
-   
-      
-}
-
-
-
-.lead{
-    color: rgb(102, 136, 166);    
-    text-decoration-line: underline; 
-    letter-spacing: 2.2px;   
-
-}
-
-.oloche{
-    color: rgb(102, 136, 166);
-    
-}
-
-.display-5{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
 }
 
 .container, .navbar-nav{
@@ -53,24 +28,45 @@ img{
     padding-left: 0;
 }
 
+
+/* jumbotron hero section */
+img{
+    border: solid rgb(102, 136, 166) 1px;  
+}
+
+.lead{
+    color: rgb(102, 136, 166);    
+    text-decoration-line: underline; 
+    letter-spacing: 2.2px;
+}
+
+.oloche{
+    color: rgb(102, 136, 166);    
+}
+
+.display-5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+}
+
 .container h1 p{
     margin-left: 50px !important;
-
 }
 
-
-.work-cards{
-    display: flex;
-    justify-content: space-between;
-}
-
+/* about me section */
 .col h2, .my-works h2{
     background-color: rgba(128, 128, 128, 0.477);
     text-align: start;
     border-bottom: solid 1px rgb(102, 136, 166);
     border-left: solid 1px rgb(102, 136, 166);
     padding-left: 5px;
+}
     
+
+/* works section */
+
+.work-cards{
+    display: flex;
+    justify-content: space-between;
 }
 
 .card-body{
@@ -87,6 +83,8 @@ img{
     font-weight: 400px;
 }
 
+
+/* about me section */
 .col a{
     color: rgb(73, 73, 73);
     font-size: 20px;

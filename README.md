@@ -22,5 +22,7 @@ This is my professional job portfolio created using html, Bootstrap and css.
 
 
 ## link to github repo
+https://github.com/ollyvent/Bootstrap-Portfolio.git
 
 ## link to deployed application
+https://ollyvent.github.io/Bootstrap-Portfolio/
